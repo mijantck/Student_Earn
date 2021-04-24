@@ -1,0 +1,60 @@
+
+`
+java:S1192p"KDefine a constant instead of duplicating this literal "millisLeft" 3 times.(¥‘ÔD
+h
+java:S1192q"MDefine a constant instead of duplicating this literal "timerRunning" 3 times.(íà·Éùÿÿÿÿ
+a
+java:S1192["FDefine a constant instead of duplicating this literal "Coins" 4 times.(Ÿ¾·‘ıÿÿÿÿ
+\
+java:S1192o"FDefine a constant instead of duplicating this literal "dasda" 3 times.(Ş°‹Ê
+H
+java:S1153’"1Directly append the argument of String.valueOf().(»¡•‡
+C
+java:S1604R"(Make this anonymous inner class a lambda(àˆÁ§ùÿÿÿÿ
+D
+java:S1604ı"(Make this anonymous inner class a lambda(²·ÈŒøÿÿÿÿ
+l
+java:S1104$"QMake coins a static final constant or non-public and provide accessors if needed.(Èáûñşÿÿÿÿ
+S
+java:S1128"=Remove this unused import 'com.startapp.sdk.ads.banner.Mrec'.(½ğÂç
+L
+java:S1128"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ
+U
+java:S1128	":Remove this unused import 'android.widget.RelativeLayout'.(ü¯ğõşÿÿÿÿ
+q
+java:S1450'"[Remove the "currentCoins" field and declare it as a local variable in the relevant methods.(ñášµ
+B
+java:S1659;"'Declare "counthave" on a separate line.(ã¢§áşÿÿÿÿ
+?
+java:S1659;"$Declare "timert" on a separate line.(ã¢§áşÿÿÿÿ
+C
+java:S1659;"(Declare "textView22" on a separate line.(ã¢§áşÿÿÿÿ
+I
+java:S1659;".Declare "textViewDoller11" on a separate line.(ã¢§áşÿÿÿÿ
+i	java:S116("ORename this field "Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É¬­Áøÿÿÿÿ
+j	java:S116)"PRename this field "Phone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¹È§üÿÿÿÿ
+P	java:S1251"<This block of commented-out lines of code should be removed.(‘Çºv
+Q	java:S125I"<This block of commented-out lines of code should be removed.(ÜÕ®¬
+•
+java:S5803f"zRemove this usage of "AdRequest", it is annotated with @VisibleForTesting and should not be accessed from production code.(Éº“¸øÿÿÿÿ
+2
+java:S3626"Remove this redundant jump.(ûÁİ…
+R	java:S125Å"<This block of commented-out lines of code should be removed.(îÈ»›
+?	java:S108Ë")Either remove or fill this block of code.(å¥‡
+?	java:S108Ğ")Either remove or fill this block of code.(å¥‡
+H
+java:S1068&"-Remove this unused "connected" private field.(Äêö…ÿÿÿÿÿ
+C
+java:S1068("(Remove this unused "Name" private field.(É¬­Áøÿÿÿÿ
+D
+java:S1068)")Remove this unused "Phone" private field.(‹¹È§üÿÿÿÿ
+L
+java:S1068*"1Remove this unused "mAuthListener" private field.(£õ–õúÿÿÿÿ
+?
+java:S1068+")Remove this unused "mAuth" private field.(ªĞ”’
+F
+java:S1068,"0Remove this unused "firebaseAuth" private field.(“ø
+>
+java:S1068-"(Remove this unused "mRef" private field.(äöò©
+F
+java:S1144ª"/Remove this unused private "pauseTimer" method.(¬òÂ

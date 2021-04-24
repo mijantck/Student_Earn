@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Student Earning</string>
+
+    <string name="nointernet">Please check your internet connection and try again</string>
+    <string name="title">Student Earning</string>
+    <!--<string name="gbanner">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="gbanner">ca-app-pub-9768091259144725/1550520042</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="spinner_title">Select option</string>
+    <string name="refer1">🔥🔥The best mobile app for online income.
+🔥🔥Earn $100-$200 per month by play spin.</string>
+    <string name="refer2">
+        👉Every day payment every day.
+👉Earn money by play spin.
+👉Earn money by watching video
+👉Refer and earn daily 10$
+👉Daily payment
+👉Payment Method Paypal,Paytm,BKash,Coinbase</string>
+
+    <string name="refer3">
+      🎯Download Now: https://play.google.com/store/apps/details?id=com.mrsoftit.studentearn</string>
+    <string name="refer4">
+     🚨Important Notice: Don’t Break any rules. Give 5 star rating otherwise you will not get payment</string>
+</resources>

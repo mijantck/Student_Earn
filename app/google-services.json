@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "377907405327",
+    "project_id": "studentearn-e18b5",
+    "storage_bucket": "studentearn-e18b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377907405327:android:2fdab00cfc967c89fc797a",
+        "android_client_info": {
+          "package_name": "com.mrsoftit.studentearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377907405327-nsli89c194gvhf6nb6s4o8u2f7gi5loc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mrsoftit.studentearn",
+            "certificate_hash": "55edd0eee7912aeb78ad7a8b5ce25146b8317b83"
+          }
+        },
+        {
+          "client_id": "377907405327-qatdr3ggmduphtln2dl5aveosovcted0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJx_N0etX7qIdAEP1sB-cqsUoVsjMUd3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377907405327-qatdr3ggmduphtln2dl5aveosovcted0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

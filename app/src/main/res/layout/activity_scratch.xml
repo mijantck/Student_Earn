@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/maims"
+    tools:context=".ScratchActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/back" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:background="#130D3A"
+        android:gravity="right"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_keyboard_backspace" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Scratch card"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="7dp"
+                android:gravity="right">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/watch"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#298E2D"
+                    android:translationZ="2dp"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="1dp"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/watch">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/gold_logo" />
+
+                        <TextView
+                            android:layout_marginRight="6dp"
+                            android:id="@+id/textViewCoins1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/font"
+                            android:text="100000"
+                            android:textColor="#FBFBFB" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ddd" />
+
+                        <TextView
+                            android:id="@+id/textViewDoller11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/font"
+                            android:text="100000"
+                            android:textColor="#FBFBFB" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Scratch and win"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/counthave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/s"
+            android:gravity="center"
+            android:text="1/11"
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="YOU EARNED 20"
+            android:textSize="30dp" />
+
+        <com.anupkumarpanwar.scratchview.ScratchView
+            android:id="@+id/scratch_view"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:overlay_image="@drawable/sssssssss"
+            android:layout_centerInParent="true"
+            app:tile_mode="CLAMP"
+            app:overlay_width="300dp"
+            app:overlay_height="300dp"
+            />
+
+        <TextView
+            android:id="@+id/timert"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:visibility="gone" />
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViews1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/gbanner"
+            app:layout_constraintBottom_toTopOf="@+id/layoutspin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.45"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

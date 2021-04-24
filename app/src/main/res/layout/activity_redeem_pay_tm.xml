@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RedeemPayTm"
+    android:background="#130D3A">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#130D3A"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:layout_gravity="right"
+        android:gravity="right"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" >
+        <LinearLayout
+            android:background="#130D3A"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back13"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_keyboard_backspace"/>
+
+            <TextView
+                android:textSize="20dp"
+                android:textColor="#592F2050"
+                android:text="    Math "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="7dp"
+                android:gravity="right">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/watch"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#298E2D"
+                    android:translationZ="2dp"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="1dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/watch">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/gold_logo" />
+
+                        <TextView
+                            android:id="@+id/textViewCoins233"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/font"
+                            android:text="100000"
+                            android:textColor="#FBFBFB" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:id="@+id/info_card"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="20dp"
+        android:translationZ="2dp"
+        app:cardCornerRadius="19dp"
+        app:cardElevation="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/userDoller"
+            android:textColor="@android:color/black"
+            android:text="0 $"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="20dp"
+        android:translationZ="2dp"
+        app:cardCornerRadius="19dp"
+        app:cardElevation="1dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:text="Minimum paypment Request is $ 5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Spinner
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/back1"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/imageView13"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/spinner_title"
+                />
+
+            <EditText
+                android:layout_marginBottom="10dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:id="@+id/payTmmobile"
+                style="@android:style/Widget.Holo.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Checkout"
+                android:layout_alignParentEnd="false"
+                android:layout_centerHorizontal="true"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/font"
+                android:textStyle="bold"
+                android:background="@drawable/back1"
+                android:ems="10"
+                android:hint="Enter your account number "
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:layout_marginBottom="20dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:id="@+id/howMuchsend"
+                style="@android:style/Widget.Holo.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Checkout"
+                android:layout_alignParentEnd="false"
+                android:layout_centerHorizontal="true"
+                android:inputType="numberDecimal"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/font"
+                android:textColor="#434D74"
+                android:textStyle="bold"
+                android:background="@drawable/back1"
+                android:ems="10"
+                android:hint=" How much "
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="20dp"
+        android:translationZ="2dp"
+        app:cardCornerRadius="19dp"
+        app:cardElevation="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/button7"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:backgroundTint="#130D3A"
+                android:onClick="payTm"
+                android:text="withdraw"
+                android:fontFamily="@font/font"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/Checkout"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:textColor="#3E425D"
+        android:gravity="center"
+        android:text="Enter your email or Phone number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintBottom_toTopOf="@+id/payTmmobile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</LinearLayout>

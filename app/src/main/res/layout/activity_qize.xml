@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QizeActivity"
+    android:id="@+id/nnnnn"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/hghg"
+        android:layout_marginTop="-60dp"
+        android:background="@drawable/back"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_marginTop="60dp"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            android:layout_gravity="right"
+            android:gravity="right"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" >
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/back122"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_keyboard_backspace"/>
+
+                <TextView
+                    android:textSize="20dp"
+                    android:textColor="@android:color/white"
+                    android:text="       Quiz "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="7dp"
+                    android:gravity="right">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/watch"
+                        android:layout_gravity="center"
+                        android:backgroundTint="#298E2D"
+                        android:translationZ="2dp"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="1dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/watch">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/gold_logo" />
+
+                            <TextView
+                                android:layout_marginRight="6dp"
+                                android:id="@+id/textViewCoins2444"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="@font/font"
+                                android:text="100000"
+                                android:textColor="#FBFBFB" />
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/ddd" />
+
+                            <TextView
+                                android:id="@+id/textViewDoller"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="@font/font"
+                                android:text="10"
+                                android:textColor="#FBFBFB" />
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/desing_home"
+        android:layout_marginTop="-160dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/s"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Quiz and win"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/counthave1Q"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            android:text="1/11"
+            android:layout_below="@+id/s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+
+            android:id="@+id/TimerQ"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            android:text=""
+            android:layout_below="@+id/s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="1dp"
+            android:translationZ="2dp"
+            app:layout_constraintBottom_toTopOf="@id/watch"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.45">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/quationId"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="In C++, a function contained within a class is called"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/purple_500"
+            android:gravity="center"
+            android:text="Choose the Correct answer"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/a"
+            android:textStyle="bold"
+            android:textColor="@color/purple_500"
+            android:gravity="center"
+            android:text="a method"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back1"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/b"
+            android:textStyle="bold"
+            android:textColor="@color/purple_500"
+            android:gravity="center"
+            android:text="a class function"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back1"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/c"
+            android:textStyle="bold"
+            android:textColor="@color/purple_500"
+            android:gravity="center"
+            android:text="member function"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back1"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/d"
+            android:textStyle="bold"
+            android:textColor="@color/purple_500"
+            android:gravity="center"
+            android:text="none of these"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back1"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewq1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/gbanner"
+        app:layout_constraintBottom_toTopOf="@+id/layoutspin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.45"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmailActivity">
+
+    <RelativeLayout
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/back"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="Log in"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="________"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/emaillo"
+            android:padding="15dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Email"
+            android:layout_margin="10dp"
+            android:background="@drawable/backw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/passlo"
+            android:padding="15dp"
+            android:layout_marginLeft="20dp"
+            android:hint="password "
+            android:layout_margin="10dp"
+            android:background="@drawable/backw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/loginTT"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="LOG IN"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:background="@drawable/backg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/phoneButton"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="PHONE NUMBER"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:background="@drawable/back1now"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/forget"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="Forgot Password"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="OR"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/eCreate"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="Create an account"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_margin="50dp"
+            android:gravity="center"
+            android:textColor="@color/Spinwell140"
+            android:textStyle="bold"
+            android:text="Privacy Policy"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

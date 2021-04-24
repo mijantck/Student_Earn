@@ -1,0 +1,94 @@
+
+K
+java:S1191@"5Use classes from the Java API instead of Sun classes.(ï´¾é
+t
+java:S1192˜"XDefine a constant instead of duplicating this literal "Reward already recieved" 7 times.(ÊÃŒÙúÿÿÿÿ
+^
+java:S1192’"GDefine a constant instead of duplicating this literal "Coins" 14 times.(Û€£µ
+g
+java:S1192G"LDefine a constant instead of duplicating this literal "DAILYCHECKS" 8 times.(æÏÅ±úÿÿÿÿ
+>
+java:S1604,"(Make this anonymous inner class a lambda(°¯èù
+D
+java:S1604"(Make this anonymous inner class a lambda(²·ÈŒøÿÿÿÿ
+u
+java:S4144š"YUpdate this method so that its implementation is not identical to "monCheck" on line 137.(şâİ¨ıÿÿÿÿ
+o
+java:S4144½"YUpdate this method so that its implementation is not identical to "wedCheck" on line 171.(¦ûŞ
+u
+java:S4144á"YUpdate this method so that its implementation is not identical to "friCheck" on line 207.(µ‘ûÜøÿÿÿÿ
+l
+java:S1450"WRemove the "calendar" field and declare it as a local variable in the relevant methods.(½™ÿf
+m
+java:S1450"RRemove the "fri" field and declare it as a local variable in the relevant methods.(µæ’•şÿÿÿÿ
+m
+java:S1450"RRemove the "mon" field and declare it as a local variable in the relevant methods.(µæ’•şÿÿÿÿ
+m
+java:S1450"RRemove the "sat" field and declare it as a local variable in the relevant methods.(µæ’•şÿÿÿÿ
+m
+java:S1450"RRemove the "sun" field and declare it as a local variable in the relevant methods.(µæ’•şÿÿÿÿ
+m
+java:S1450"RRemove the "thu" field and declare it as a local variable in the relevant methods.(µæ’•şÿÿÿÿ
+m
+java:S1450"RRemove the "tue" field and declare it as a local variable in the relevant methods.(µæ’•şÿÿÿÿ
+m
+java:S1450"RRemove the "wed" field and declare it as a local variable in the relevant methods.(µæ’•şÿÿÿÿ
+k
+java:S1450"VRemove the "weekday" field and declare it as a local variable in the relevant methods.(‚¤Ü
+<
+java:S1659"!Declare "mon" on a separate line.(µæ’•şÿÿÿÿ
+<
+java:S1659"!Declare "tue" on a separate line.(µæ’•şÿÿÿÿ
+<
+java:S1659"!Declare "wed" on a separate line.(µæ’•şÿÿÿÿ
+<
+java:S1659"!Declare "thu" on a separate line.(µæ’•şÿÿÿÿ
+<
+java:S1659"!Declare "fri" on a separate line.(µæ’•şÿÿÿÿ
+<
+java:S1659"!Declare "sat" on a separate line.(µæ’•şÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(¨Œşÿÿÿÿ
+>	java:S108%")Either remove or fill this block of code.(å¥‡
+H
+java:S1874K"3Remove this use of "getDrawable"; it is deprecated.(«Øs
+N
+java:S1874O"3Remove this use of "getDrawable"; it is deprecated.(¿€õôıÿÿÿÿ
+N
+java:S1874T"3Remove this use of "getDrawable"; it is deprecated.(É’Ï±şÿÿÿÿ
+I
+java:S1874X"3Remove this use of "getDrawable"; it is deprecated.(ÿš€È
+N
+java:S1874]"3Remove this use of "getDrawable"; it is deprecated.(ÉÓÌÁşÿÿÿÿ
+I
+java:S1874a"3Remove this use of "getDrawable"; it is deprecated.(æË†¨
+I
+java:S1874f"3Remove this use of "getDrawable"; it is deprecated.(ø¤†
+I
+java:S1874j"3Remove this use of "getDrawable"; it is deprecated.(›Âµ
+N
+java:S1874o"3Remove this use of "getDrawable"; it is deprecated.(©Ûù®ÿÿÿÿÿ
+I
+java:S1874s"3Remove this use of "getDrawable"; it is deprecated.(éœ§ 
+I
+java:S1874x"3Remove this use of "getDrawable"; it is deprecated.(Ë¶‡
+N
+java:S1874|"3Remove this use of "getDrawable"; it is deprecated.(ŒÑÖÉşÿÿÿÿ
+J
+java:S1874"3Remove this use of "getDrawable"; it is deprecated.(¬Õ´ 
+J
+java:S1874…"3Remove this use of "getDrawable"; it is deprecated.(”¨Å
+B
+java:S1172‰"+Remove this unused method parameter "view".(ó¬í
+G
+java:S1172š"+Remove this unused method parameter "view".(şâİ¨ıÿÿÿÿ
+B
+java:S1172«"+Remove this unused method parameter "view".(ˆ·ğ 
+A
+java:S1172½"+Remove this unused method parameter "view".(¦ûŞ
+G
+java:S1172Ï"+Remove this unused method parameter "view".(à¥‡çùÿÿÿÿ
+G
+java:S1172á"+Remove this unused method parameter "view".(µ‘ûÜøÿÿÿÿ
+B
+java:S1172ó"+Remove this unused method parameter "view".(ôÏŠ¡

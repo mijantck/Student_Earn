@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/redeem"
+        android:icon="@drawable/ic_baseline_account_balance_wallet"
+        android:title="Redeem " />
+    <item
+        android:id="@+id/how_to_work"
+        android:icon="@drawable/ic_baseline_info"
+        android:title="How to work " />
+
+    <item
+        android:id="@+id/rate_us"
+        android:icon="@drawable/ic_baseline_stars"
+        android:title="Rate us" />
+
+
+
+</menu>

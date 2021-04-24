@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+    <RelativeLayout
+        android:layout_marginTop="-50dp"
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/back"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/relativeLayout"
+        android:layout_marginTop="-50dp" />
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imageView"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="May I ask your phone number?"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textColor="@color/colorPrimary" />
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@+id/numberLayout"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/ic_baseline_smartphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:defaultCode="880" />
+            <EditText
+
+                android:padding="20dp"
+                android:background="@drawable/back1"
+                android:id="@+id/editTextMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:drawablePadding="10dp"
+                android:hint="mobile number"
+                android:inputType="phone"
+                android:maxLength="10" />
+        </LinearLayout>
+
+
+        <Button
+            android:backgroundTint="#130D3A"
+            android:id="@+id/buttonContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/numberLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textColor="#cdd8f1" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

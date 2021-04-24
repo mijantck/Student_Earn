@@ -1,0 +1,111 @@
+
+]
+java:S1192i"GDefine a constant instead of duplicating this literal "It is " 3 times.(ËÙ¤Ù
+a
+java:S1192M"FDefine a constant instead of duplicating this literal "Coins" 7 times.(Ÿ¾·‘ıÿÿÿÿ
+b
+java:S1192ã"FDefine a constant instead of duplicating this literal "Users" 3 times.(É¸Ìıÿÿÿÿ
+“
+java:S1192Ş"wDefine a constant instead of duplicating this literal "https://studentearn-e18b5-default-rtdb.firebaseio.com/" 4 times.(¸º±ïüÿÿÿÿ
+^
+java:S1192î"GDefine a constant instead of duplicating this literal "Redeem" 6 times.(šïœ¼
+_
+java:S1192ñ"HDefine a constant instead of duplicating this literal "account" 4 times.(ÿöãÕ
+>
+java:S1604Z"(Make this anonymous inner class a lambda(§†µ
+?
+java:S1604Ÿ"(Make this anonymous inner class a lambda(²™æê
+C
+java:S1604u"(Make this anonymous inner class a lambda(Êœüûÿÿÿÿ
+D
+java:S1604å"(Make this anonymous inner class a lambda(—´˜×ùÿÿÿÿ
+D
+java:S1604­"(Make this anonymous inner class a lambda(—´˜×ùÿÿÿÿ
+D
+java:S1604¡"(Make this anonymous inner class a lambda(¶´€½ûÿÿÿÿ
+?
+java:S1604"(Make this anonymous inner class a lambda(„ÑñŒ
+q
+java:S14500"[Remove the "firebaseAuth" field and declare it as a local variable in the relevant methods.(“ø
+˜
+java:S1186ƒ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒÉ¤
+>
+java:S1659,"#Declare "money" on a separate line.(Ÿê‡·ùÿÿÿÿ
+@
+java:S1659-"*Declare "currentMoney" on a separate line.(‹¤œš
+?
+java:S1659/")Declare "howMuchsend" on a separate line.(“û½Ø
+C
+java:S16592"(Declare "mRefStatus" on a separate line.(ŒÚ•¤øÿÿÿÿ
+<
+java:S16594"'Declare "usercoins" on a separate line.(âÕÔ7
+>
+java:S16594")Declare "userCoinuse" on a separate line.(âÕÔ7
+<
+java:S16594"'Declare "uhavecoin" on a separate line.(âÕÔ7
+=
+java:S16599"'Declare "moneysend" on a separate line.(‹ã˜÷
+;
+java:S16599"%Declare "howMuch" on a separate line.(‹ã˜÷
+D
+java:S1659;".Declare "textViewCoins233" on a separate line.(óôò‚
+t
+java:S2293C"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºÔ÷áüÿÿÿÿ
+m
+java:S3776G"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¨Œşÿÿÿÿ
+=
+java:S2185’"&Remove this silly call to "Math.round"(ŞÏªƒ
+˜
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ı§„Ô
+p
+java:S2293´"YReplace the type specification in this constructor call with the diamond operator ("<>").(šÁû¡
+N
+java:S1135Ì"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+M
+java:S1874Ò"6Remove this use of "ProgressDialog"; it is deprecated.(¡šŸ¡
+M
+java:S1874Ò"6Remove this use of "ProgressDialog"; it is deprecated.(¡šŸ¡
+N
+java:S1874Ô"2Remove this use of "setMessage"; it is deprecated.(»™çöúÿÿÿÿ
+6
+java:S2153Ú"Remove the boxing to "Integer".(„åèÌ
+
+java:S1186ç"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(²óÀÚÿÿÿÿÿ
+W	java:S125•"<This block of commented-out lines of code should be removed.(¯ÅõÓûÿÿÿÿ
+M
+java:S1874š"6Remove this use of "ProgressDialog"; it is deprecated.(¡šŸ¡
+M
+java:S1874š"6Remove this use of "ProgressDialog"; it is deprecated.(¡šŸ¡
+N
+java:S1874œ"2Remove this use of "setMessage"; it is deprecated.(»™çöúÿÿÿÿ
+F
+java:S1874"/Remove this use of "Handler"; it is deprecated.(„ÑñŒ
+6
+java:S2153©"Remove the boxing to "Integer".(„åèÌ
+
+java:S1186¯"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(²óÀÚÿÿÿÿÿ
+R	java:S125Û"<This block of commented-out lines of code should be removed.(ë™±æ
+A
+java:S1481î"*Remove this unused "count" local variable.(æÕ¿¼
+A
+java:S1068+",Remove this unused "mobileno" private field.(®›ùZ
+D
+java:S1068,")Remove this unused "money" private field.(Ÿê‡·ùÿÿÿÿ
+F
+java:S1068-"0Remove this unused "currentMoney" private field.(‹¤œš
+F
+java:S10680"0Remove this unused "firebaseAuth" private field.(“ø
+C
+java:S10683"-Remove this unused "usermoney" private field.(Ï÷éÅ
+G
+java:S10684"2Remove this unused "usermoneyCoins" private field.(âÕÔ7
+B
+java:S10684"-Remove this unused "usercoins" private field.(âÕÔ7
+@
+java:S10686"*Remove this unused "coins2" private field.(¥˜Â
+B
+java:S10688",Remove this unused "usercoin" private field.(ÖçÎï
+C
+java:S10689"-Remove this unused "moneysend" private field.(‹ã˜÷
+G
+java:S1144™"0Remove this unused private "sendMessage" method.(¶ğÍ„
